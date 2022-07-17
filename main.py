@@ -29,7 +29,7 @@ def collatz(number):
 	digitSum = sum(result)
 
 	if isCoprime(length, digitSum) == False:
-    return 0 
+    		return 0 
 	else:
 		return 1 
 
@@ -38,8 +38,8 @@ number = int(input("Geben Sie eine Zahl groesser Null ein: "))
 
 # Test if number is in allowed range (greater than zero)
 if number <= 0:
-  print("Die eingegebene Zahl war kleiner oder gleich Null.")
-  exit()
+	print("Die eingegebene Zahl war kleiner oder gleich Null.")
+	exit()
 
 # Iterate through all numbers from 1 to n
 n = number
